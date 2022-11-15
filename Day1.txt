@@ -28,4 +28,4 @@ __  Image can be displayed in the title bar using <link> tag.
 
 Q2. What is the purpose of "alt" attribute of <img> tag?
 __  The <img> alt attribute is used to specify the alternate text for an image. It is useful when the image is not displayed. It is used to give alternative         information for an image.
-
+ 
