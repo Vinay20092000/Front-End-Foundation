@@ -1,0 +1,10 @@
+Q1 How to apply style to first letter of the paragraph?
+__ The ::first-letter selector is used to add a style to the first letter of the specified selector.
+   CSS Syntax
+   ::first-letter {
+   css declarations;
+   }
+
+Q2 Why do we use  ~  and >  symbols in css selectors?
+__ > Sign:It will target elements which are DIRECT children of a particular element.
+   ~ Sign:It is general sibling combinator and similar to Adjacent sibling combinator. the difference is that the      second selector does NOT have to immediately follow the first one means It will select all elements that is         preceded by the former selector.
