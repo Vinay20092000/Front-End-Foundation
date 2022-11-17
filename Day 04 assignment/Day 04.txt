@@ -1,0 +1,11 @@
+Q1 What is differences between <head> and  <header> tags?
+__ Head tag: The HTML <head> element provides general information (metadata) about the document, including its    title and links to/definitions of scripts    and style sheets. Header tag: The HTML <header> element represents a    group of introductory or navigational aids. 
+
+Q2 How to allow only numbers in textbox?
+__ Using <input type="number"> The standard solution to restrict a user to enter only numeric values is to use    <input> elements of type number.
+
+Q4 What is cookies in web applications? Why do we use?
+__ Cookies are data packets that are exchanged between computer programs. In general, HTTP cookies are used by websites to store user data locally and on the server side in order to make individual functions and web    applications such as online shops, social networks, and forums more user-friendly.
+
+
+
