@@ -1,0 +1,18 @@
+Assignments.
+
+Q1 What is Validation in Client Side Programming? 
+__ Client-side validation is an initial check and an important feature of good user experience; by catching invalid    data on the client-side, the user can fix it straight away.
+
+Q2 What are the advantages of performing Validations?
+__ The advantages of performing validations are:
+   -to avoid mismatch.
+   -
+
+Q3 What is querystring in web pages?
+__ A query string is the portion of a URL where data is passed to a web application and/or back-end database. The    reason we need query strings is that the HTTP protocol is stateless by design. Each parameter is separated using    the ampersand ( &).
+
+Q4 What is <input type="hidden"/>? Why do we use?
+__ The HTML <input type=”hidden”> is used to define a input Hidden field. A hidden field also includes those data    that could not be seen or modified by the users when submitted the form. A hidden field only stores those    database records that need to be updated when submitting the form.
+
+Q5 Difference between <input type="submit"/> and <button></button>?
+__ <button type="button"></button> buttons will not submit a form - they don't do anything by default. Button won't    submit form on its own.It is a simple button which is used to perform some operation by using javascript whereas    <input type="submit"/> is a kind of button which by default submit the form whenever user clicks on submit    button.
