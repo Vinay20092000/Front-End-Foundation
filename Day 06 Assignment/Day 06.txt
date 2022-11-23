@@ -1,0 +1,29 @@
+Q1 Why do you use position property in CSS?
+__ Position property in CSS is used to you move the elements anywhere in the webpage. 
+   The position property specifies the type of positioning method used for an element (static, relative, fixed,    absolute or sticky).
+
+Q2 What is the difference between position property values : absolute / relative;?
+__ Position: absolute places an element relative to its parent’s position and changing the layout around it whereas
+   position: relative places an element relative to its current position without changing the layout around it.       
+ 
+Q3  How to implement following requirements in CSS3 (As per the image):
+    a. Apply space between words
+    __ If you want to add more space between the words of the paragraph, you can use the CSS “word-spacing” property. We can assign the values in pixels         like 5px, 10px. If you can assign responsive values to word spacing properties like p.m, percentage(%), etc.
+
+    b. Apply space between letters
+    __ The letter-spacing property increases or decreases the space between characters in a text in pixels like 1px,-1px.
+
+    c. Apply shadow for each character in the text
+    __ The CSS text-shadow property applies shadow to text.
+       In its simplest use, you only specify the horizontal shadow (2px) and the vertical shadow (2px).
+ 
+    d. 
+
+Q4 How to hide an element using CSS?        
+__ Use visibility: hidden.     
+    
+
+Q How to rotate elements in CSS?
+__ CSS transform property is used to rotate an element. The rotate() function can be used to rotate any HTML          element or used for transformations.
+   Syntax:
+   transform:rotate(x deg);
