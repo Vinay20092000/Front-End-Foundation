@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <style>
+            .aa
+            {
+                font-weight: bold;
+                margin-left: 30px;
+            }
+            .i
+            {
+                margin-top:10px ;
+                width: 400px;
+                margin-left: 30px;
+            }
+            .sp
+            {
+                color: red;
+            }
+            .b
+            {
+                width: 400px;
+                background-color: rgb(11, 82, 163);
+                border: none;
+                color: aliceblue;
+                height: 30px;
+                margin-left: 30px;
+            }
+            #form1
+            {
+                border: 2px solid black;
+                margin-left: 400px;
+                width: 460px;
+                height: 830px;
+            }
+            .t1
+            {
+                margin-left: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <h3 align="center">Bank Account Opening Form</h3><hr/>
+        <form  id="form1" action="submit.php" method="get" autocomplete="off"><br/>
+           <span class="aa">Name on Account</span><span class="sp">*</span><br/>
+            <input class="i" type="text" autofocus required placeholder="First Name"/><br/>
+            <input class="i" type="text" placeholder="Middle Name" required/><br/>
+            <input class="i" type="text" placeholder="Last Name" required/><br/><br/><br/>
+            <span class="aa"> Account Number</span><span class="sp">*</span><br/>
+            <input class="i" type="text" required/><br/><br/><br/>
+            <span class="aa">Account Type</span><br/>
+            <input class="t1" type="radio" name="r1"/>Current Account <br/>
+            <input class="t1" type="radio" name="r1"/>Savings Account<br/> <br/><br/>
+            <span class="aa">Address</span><span class="sp">*</span><br/>
+            <textarea class="i" placeholder="Please Enter Full Address" required></textarea><br/>
+            <input class="i" type="text" placeholder="City" required/><br/>
+            <input class="i" type="text" placeholder="State" required/><br/>
+            <input class="i" type="text" placeholder="Pincode" required/><br/><br/><br/>
+            <span class="aa">Occupation</span><br/>
+            <select class="i">
+                <option>Private Sector</option>
+                <option>Government Sector</option>
+                <option>Business</option>
+            </select><br/><br/><br/>
+            <span class="aa">Phone Number</span><span class="sp">*</span><br/>
+            <select class="i">
+                <option>Home</option>
+                <option>Office</option>
+            </select><br/>
+            <input type="text" class="i" placeholder="Enter Mobile Number" required/><br/><br/><br/>
+            <button class="b">Submit</button><br/><br/>
+            <input class="t1" form="form1" type="checkbox" required/>I agree to the terms & conditions.<span class="sp">*</span>
+      </form>
+    </body>
+</html>
