@@ -1,0 +1,38 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <h3>Storing User Info in LocalStorage</h3>
+        <fieldset>
+            <legend>User Info</legend>
+            Customer Name : <input type="text" id="uname"/><br/><br/>
+            Joined date : <input type="date" id="date"/>
+            <br/><br/>
+            Favourite Color : <input type="color" id="color"/><br/><br/>
+            <input type="button" value="Save User Info" onclick="fn_saveinfo()"/>
+            <input type="button" value="Delete User Info" onclick="fn_deletedata()"/>
+            <a href="2_getinfo.html" ><input type="button" value="Get User Info"/></a>
+        </fieldset>
+        <script>
+            function fn_saveinfo()
+            {
+                var txtuname=document.getElementById("uname");
+                var txtdate=document.getElementById("date");
+                var txtcolor=document.getElementById("color");
+                var dataObj={};
+                dataObj.txtuname=txtuname.value;
+                dataObj.txtdate=txtdate.value;
+                dataObj.txtcolor=txtcolor.value;
+                var resultStr=JSON.stringify(dataObj);
+                localStorage.setItem("userInfo",resultStr);
+                alert("UserInfo stored in local storage");
+            }
+            function fn_deletedata()
+            {
+                localStorage.removeItem("userInfo");
+                alert("UserInfo removed from local storage");
+            }
+           
+        </script>
+    </body>
+</html>

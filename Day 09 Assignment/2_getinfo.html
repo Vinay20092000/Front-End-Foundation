@@ -1,0 +1,22 @@
+<html>
+    <head>
+    </head>
+    <body id="b1">
+        <p style="font-size: 200%;" id="p1"></p>
+        <script>
+                var dataStr=localStorage.getItem("userInfo");
+                if(dataStr==null)
+                {
+                var paraObj=document.getElementById("p1");
+                paraObj.innerHTML=" Welcome Guest User.<br/>Your DOJ is empty. ";
+                var bodyObj=document.getElementById("b1");
+                bodyObj.style.backgroundColor= "white";
+                }
+                var dataObj=JSON.parse(dataStr);
+                var paraObj=document.getElementById("p1");
+                paraObj.innerHTML="Welcome "+ dataObj.txtuname+".<br/>"+"Your DOJ is " +dataObj.txtdate+"." ;
+                var bodyObj=document.getElementById("b1");
+                bodyObj.style.backgroundColor=dataObj.txtcolor;
+        </script>
+    </body>
+</html>
