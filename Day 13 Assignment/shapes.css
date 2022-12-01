@@ -1,0 +1,27 @@
+.square {
+  color: DarkBlue;
+  box-shadow: 2px 2px 5px DarkBlue;
+  border: 2px solid DarkBlue;
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+}
+
+.rectangle {
+  color: DarkBlue;
+  box-shadow: 2px 2px 5px DarkBlue;
+  border: 2px solid DarkBlue;
+  margin: 5px;
+  width: 300px;
+  height: 200px;
+}
+
+.circle {
+  color: DarkBlue;
+  box-shadow: 2px 2px 5px DarkBlue;
+  border: 2px solid DarkBlue;
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}/*# sourceMappingURL=shapes.css.map */

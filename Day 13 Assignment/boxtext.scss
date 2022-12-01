@@ -1,0 +1,26 @@
+.bt
+{
+    margin: 20px;
+    padding: 20px;
+    border: 1pz solid darkgray;
+    text-align: center;
+}
+$height: 15px;
+$size: 4px;
+@for $i from 1 to 7
+{
+    .bt#{$i}
+    {
+        height: $height+($i * 10);
+        font-size: $size+($i*10);
+
+        @if($i>3)
+        {
+            background-color: lime;
+        }
+        @else
+        {
+            background-color: aqua;
+        }
+    }
+}
