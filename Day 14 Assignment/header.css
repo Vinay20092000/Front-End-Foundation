@@ -1,0 +1,8 @@
+.header {
+  font-size: 100px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px violet, 4px 4px 2px indigo, 6px 6px 2px blue , 8px 8px 2px green , 10px 10px 2px yellow , 12px 12px 2px orange, 14px 14px 2px red ;
+  text-align: center;
+  color: #2f3333;
+  background-color: #9cd4f2;
+}
